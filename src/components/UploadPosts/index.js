@@ -38,10 +38,10 @@ class UploadPosts extends Component {
     const jwtToken = Cookies.get('jwt_token')
     console.log(jwtToken)
     const {blogData} = this.state
-    const stBlogData = JSON.stringify(blogData)
+    const stringBlogData = JSON.stringify(blogData)
     const options = {
       method: 'POST',
-      body: stBlogData,
+      body: stringBlogData,
       headers: {
         Authorization: `Bearer ${jwtToken}`,
         'content-type': 'application/json',
