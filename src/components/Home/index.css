@@ -1,0 +1,28 @@
+.loader-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+}
+.blogs-ul-container {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.post-container-heading {
+  text-align: center;
+  font-size: 2rem;
+}

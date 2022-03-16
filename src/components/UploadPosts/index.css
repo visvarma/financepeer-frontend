@@ -1,0 +1,6 @@
+.bg-home-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
