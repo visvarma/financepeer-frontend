@@ -148,7 +148,7 @@ class Login extends Component {
     return (
       <div className="login-form-container">
         <img
-          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+          src="https://res.cloudinary.com/visvarma/image/upload/v1647694111/Financepeer_new_logo_o0wuc5.png"
           className="login-website-logo-mobile-img"
           alt="website logo"
         />
@@ -159,7 +159,7 @@ class Login extends Component {
         />
         <form className="form-container" onSubmit={this.submitForm}>
           <img
-            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+            src="https://res.cloudinary.com/visvarma/image/upload/v1647694111/Financepeer_new_logo_o0wuc5.png"
             className="login-website-logo-desktop-img"
             alt="website logo"
           />
